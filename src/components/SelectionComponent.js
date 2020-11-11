@@ -32,61 +32,61 @@ function Movie() {
                     title = 'The Motion Picture';
                     year = 1979;
                     poster = 'https://i.imgur.com/zWbI9ee.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 2:
                     title = 'Star Trek: The Wrath of Khan';
                     year = 1982;
                     poster = 'https://i.imgur.com/20jSOIB.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 3:
                     title = 'Star Trek: The Search for Spock';
                     year = 1984;
                     poster = 'https://i.imgur.com/HhzWaun.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 4:
                     title = 'Star Trek: The Voyage Home';
                     year = 1986;
                     poster = 'https://i.imgur.com/SL2BlAe.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 5:
                     title = 'Star Trek: The Final Frontier';
                     year = 1989;
                     poster = 'https://i.imgur.com/933evdj.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 6:
                     title = 'Star Trek: The Undiscovered Country';
                     year = 1991;
                     poster = 'https://i.imgur.com/aTphKAS.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 7:
                     title = 'Star Trek: Generations';
                     year = 1994;
                     poster = 'https://i.imgur.com/JxEufdk.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 8:
                     title = 'Star Trek: First Contact';
                     year = 1996
                     poster = 'https://i.imgur.com/GFzs4lL.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 9:
                     title = 'Star Trek: Insurrection'                                                                                                                                                                                                                                            ;
                     year = 1998;
                     poster = 'https://i.imgur.com/7xC5z3H.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 10:
                     title = 'Star Trek: Nemesis';
                     year = 2002;
                     poster = 'https://i.imgur.com/kNqPuky.png';
-                    alert('You selected a film! ' + title + ' (' + year + ') ');
+                    // alert('You selected a film! ' + title + ' (' + year + ') ');
                     break;
                case 11:
                     title = 'Star Trek: The Movie';
@@ -171,15 +171,15 @@ function Television() {
           switch(season) {
                case 1:
                     episode = Math.floor(Math.random() * 29) + 1; 
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2:
                     episode = Math.floor(Math.random() * 26) + 1; 
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 3:
                     episode = Math.floor(Math.random() * 24) + 1; 
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default:
                     TOSEpisode();
@@ -212,11 +212,11 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 13) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2: 
                     episode = Math.floor(Math.random * 13) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default:
                     AnimEpisode();
@@ -254,11 +254,11 @@ function Television() {
                case 6:
                case 7:
                     episode = Math.floor(Math.random() * 26) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2: 
                     episode = Math.floor(Math.random() * 22) + 1; 
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default: 
                     TNGEpisode();
@@ -292,7 +292,7 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 20) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2:
                case 3:
@@ -301,7 +301,7 @@ function Television() {
                case 6:
                case 7:
                     episode = Math.floor(Math.random() * 26) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default: 
                     DS9Episode();
@@ -334,7 +334,7 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 16) + 1; 
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2:
                case 3:
@@ -343,7 +343,7 @@ function Television() {
                case 6:
                case 7:
                     episode = Math.floor(Math.random() * 26) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default: 
                     VOYEpisode();
@@ -376,19 +376,19 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 26) + 1;
-                    alert('You selected [' + series + '!]\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected [' + series + '!]\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2:
                     episode = Math.floor(Math.random() * 26) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 3:
                     episode = Math.floor(Math.random() * 24) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 4:
                     episode = Math.floor(Math.random() * 22) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                default: 
                     ENTEpisode();
@@ -421,15 +421,15 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 15) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                case 2:
                     episode = Math.floor(Math.random() * 14) + 1;
-                    alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+                    // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                     break;
                // case 3:
                //      episode = Math.floor(Math.random() * 13) + 1;
-               //      alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
+               //      // alert('You selected ' + series + '.\nYou have selected season ' + season + ', ' + episode + '.');
                //      break;
                default: 
                     DISCOEpisode();
@@ -462,7 +462,7 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 10) + 1;
-                    alert('You have selected season ' + season + ', episode ' + episode + '.');
+                    // alert('You have selected season ' + season + ', episode ' + episode + '.');
                     break;
                default: 
                     PicardEpisode();
@@ -494,7 +494,7 @@ function Television() {
           switch (season) {
                case 1:
                     episode = Math.floor(Math.random() * 10) + 1;
-                    alert('You have selected season ' + season + ', episode ' + episode + '.');
+                    // alert('You have selected season ' + season + ', episode ' + episode + '.');
                     break;
                default: 
                     LDEpisode();
